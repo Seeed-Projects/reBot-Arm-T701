@@ -6,6 +6,7 @@
 
 <img src="./media/T701_render_02.png" alt="reBot Arm T701" width="1000">
 
+[![Status: Beta](https://img.shields.io/badge/Status-Beta%20Preview-orange.svg)](#%EF%B8%8F-roadmap-与状态)
 [![Hardware License: CERN-OHL-W-2.0](https://img.shields.io/badge/License-CERN--OHL--W--2.0--Hardware-green.svg)](./LICENSE)
 [![DOF](https://img.shields.io/badge/DOF-7%20%C3%97%202%20%2B%20Grippers-blue.svg)](#%EF%B8%8F-%E7%A1%AC%E4%BB%B6%E6%A6%82%E8%A7%88)
 [![LeRobot](https://img.shields.io/badge/Framework-LeRobot-yellow.svg)](#%EF%B8%8F-roadmap-与状态)
@@ -14,7 +15,7 @@
 
 **100% 开源 · 双臂 · Physical AI · 真实世界数据采集**
 
-🔓 分步开源，逐步放出 —— 关注 [Roadmap](#%EF%B8%8F-roadmap-与状态) 与本仓库，不错过每一次发布。
+🧪 **Beta 预览版** —— 分步开源，逐步放出。关注 [Roadmap](#%EF%B8%8F-roadmap-与状态) 与本仓库，不错过每一次发布。
 
 🌐 [教程中心](https://wiki.seeedstudio.com/robotics_page/) · 🦾 [上一代：reBot-DevArm B601](https://github.com/Seeed-Projects/reBot-DevArm)
 
@@ -116,7 +117,7 @@ T701 就是我们的答案 —— 一具躯干、两条 7 自由度手臂、两�
 
 | 项目 | 状态 | 目标时间 | 说明 |
 | :--- | :---: | :---: | :--- |
-| 平台亮相 · 渲染图 | ✅ 已发布 | 2026-10 | 首批照片与平台介绍 |
+| 平台亮相 · 渲染图 | ✅ 已发布 | 2026-10 | 首批照片与平台介绍（Beta 预览） |
 | 硬件规格 | ⏳ 计划中 | 2026-11 | 完整规格表与硬件深度解析 |
 | CAD · STEP 文件 | ⏳ 计划中 | 2026-11 | 整机装配 STEP + 101 个零件文件 |
 | BOM | ⏳ 计划中 | 2026-11 | 材质、处理、数量、参考图 |

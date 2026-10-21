@@ -6,6 +6,7 @@
 
 <img src="./media/T701_render_02.png" alt="reBot Arm T701" width="1000">
 
+[![Status: Beta](https://img.shields.io/badge/Status-Beta%20Preview-orange.svg)](#%EF%B8%8F-roadmap-and-status)
 [![Hardware License: CERN-OHL-W-2.0](https://img.shields.io/badge/License-CERN--OHL--W--2.0--Hardware-green.svg)](./LICENSE)
 [![DOF](https://img.shields.io/badge/DOF-7%20%C3%97%202%20%2B%20Grippers-blue.svg)](#%EF%B8%8F-hardware-overview)
 [![LeRobot](https://img.shields.io/badge/Framework-LeRobot-yellow.svg)](#%EF%B8%8F-roadmap-and-status)
@@ -14,7 +15,7 @@
 
 **100% Open Source · Bimanual · Physical AI · Real-World Data**
 
-🔓 Releasing in the open, step by step — follow the [Roadmap](#%EF%B8%8F-roadmap-and-status) and watch this repository for every drop.
+🧪 **Beta preview** — releasing in the open, step by step. Follow the [Roadmap](#%EF%B8%8F-roadmap-and-status) and watch this repository for every drop.
 
 🌐 [Tutorial Center](https://wiki.seeedstudio.com/robotics_page/) · 🦾 [Predecessor: reBot-DevArm B601](https://github.com/Seeed-Projects/reBot-DevArm)
 
@@ -116,7 +117,7 @@ We open-source in the open — step by step. Every item below lands in this repo
 
 | Item | Status | Target | Description |
 | :--- | :---: | :---: | :--- |
-| Platform reveal · renders | ✅ Released | 2026-10 | First photo set and platform introduction |
+| Platform reveal · renders | ✅ Released | 2026-10 | First photo set and platform introduction (beta preview) |
 | Hardware specifications | ⏳ Planned | 2026-11 | Full spec sheet and hardware deep dive |
 | CAD · STEP files | ⏳ Planned | 2026-11 | Full-assembly STEP + 101 individual part files |
 | BOM | ⏳ Planned | 2026-11 | Materials, finishes, quantities, reference images |

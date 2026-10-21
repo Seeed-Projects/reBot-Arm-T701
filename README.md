@@ -118,18 +118,18 @@ We open-source in the open — step by step. Every item below lands in this repo
 | :--- | :---: | :---: | :--- |
 | Platform reveal · renders | ✅ Released | 2026-10 | First photo set and platform introduction |
 | Hardware specifications | ⏳ Planned | 2026-11 | Full spec sheet and hardware deep dive |
-| CAD · STEP files | ⏳ Planned | 2026-12 | Full-assembly STEP + 101 individual part files |
-| BOM | ⏳ Planned | 2026-12 | Materials, finishes, quantities, reference images |
-| Assembly guide | ⏳ Planned | 2026-12 | Step-by-step assembly documentation (photos & text) |
-| Python SDK | ⏳ Planned | 2027-01 | Motor comm, joint/MIT control, kinematics, QP IK, trajectories, teleoperation |
-| URDF model | ⏳ Planned | 2027-01 | 14-axis dual-arm URDF + STL meshes |
-| VR teleoperation (Meta Quest) | ⏳ Planned | 2027-01 | WebXR → WebSocket → UDP streaming, DLS/QP control |
-| Calibration guide | ⏳ Planned | 2027 Q1 | Zero-position and kinematic calibration |
-| ROS 2 integration | ⏳ Planned | 2027 Q1 | Kinematics, planning, teleoperation |
-| LeRobot integration | ⏳ Planned | 2027 Q1 | Teleoperate → Record → Train → Deploy |
-| MJCF / USD models | ⏳ Planned | 2027 Q2 | LeRobot & Isaac-ready simulation models |
-| Isaac Sim simulation | ⏳ Planned | 2027 Q2 | Simulated teleoperation, synthetic data |
-| Datasets & benchmarks | ⏳ Planned | 2027 Q2 | Community bimanual datasets on the T701 |
+| CAD · STEP files | ⏳ Planned | 2026-11 | Full-assembly STEP + 101 individual part files |
+| BOM | ⏳ Planned | 2026-11 | Materials, finishes, quantities, reference images |
+| Assembly guide | ⏳ Planned | 2026-11 | Step-by-step assembly documentation (photos & text) |
+| Python SDK | ⏳ Planned | 2026-11 | Motor comm, joint/MIT control, kinematics, QP IK, trajectories, teleoperation |
+| URDF model | ⏳ Planned | 2026-11 | 14-axis dual-arm URDF + STL meshes |
+| VR teleoperation (Meta Quest) | ⏳ Planned | 2026-11 | WebXR → WebSocket → UDP streaming, DLS/QP control |
+| Calibration guide | ⏳ Planned | 2026-11 | Zero-position and kinematic calibration |
+| ROS 2 integration | ⏳ Planned | 2027-12 | Kinematics, planning, teleoperation |
+| LeRobot integration | ⏳ Planned | 2027-12 | Teleoperate → Record → Train → Deploy |
+| MJCF / USD models | ⏳ Planned | 2027-12 | LeRobot & Isaac-ready simulation models |
+| Isaac Sim simulation | ⏳ Planned | 2027-12 | Simulated teleoperation, synthetic data |
+| Datasets & benchmarks | ⏳ Planned | 2027-12 | Community bimanual datasets on the T701 |
 
 > 📅 Target dates are current estimates and may shift — star and watch the repository to catch each release.
 

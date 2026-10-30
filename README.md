@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 reBot Arm Twin Series
+# 🤖 reBot Arm T701
 
 **Giving Physical AI Two Arms: Continuing the open-source legacy of reBot, a 7-DOF bimanual robotic arm**
 

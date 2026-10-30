@@ -162,8 +162,8 @@ T701 就是我们的答案 —— 一具躯干、两条 7 自由度手臂、两�
 
 **👥 贡献者**
 
-<p align="center"><a href="https://github.com/Seeed-Projects/reBot-Arm-T701-a-fully-open-source-7DOF-bimanual-robotic-arm/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Seeed-Projects/reBot-Arm-T701-a-fully-open-source-7DOF-bimanual-robotic-arm" />
+<p align="center"><a href="https://github.com/Seeed-Projects/reBot-Arm-T701/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Seeed-Projects/reBot-Arm-T701" />
 </a></p>
 
 *Coming soon —— 欢迎提交 PR，成为贡献者！*

@@ -162,8 +162,8 @@ The path of open source is never lonely. The reBot Arm T701 would not exist with
 
 **👥 Contributors**
 
-<p align="center"><a href="https://github.com/Seeed-Projects/reBot-Arm-T701-a-fully-open-source-7DOF-bimanual-robotic-arm/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Seeed-Projects/reBot-Arm-T701-a-fully-open-source-7DOF-bimanual-robotic-arm" />
+<p align="center"><a href="https://github.com/Seeed-Projects/reBot-Arm-T701/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Seeed-Projects/reBot-Arm-T701" />
 </a></p>
 
 *Coming soon — welcome to submit PRs and become a contributor!*

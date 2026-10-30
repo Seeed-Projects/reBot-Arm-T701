@@ -4,7 +4,7 @@
 
 **Giving Physical AI Two Arms: Continuing the open-source legacy of reBot, a 7-DOF bimanual robotic arm**
 
-<img src="./media/T701_render_02.png" alt="reBot Arm T701" width="1000">
+<img src="./media/T701_banner_beta.png" alt="reBot Arm T701 (Beta)" width="1000">
 
 [![Status: Beta](https://img.shields.io/badge/Status-Beta%20Preview-orange.svg)](#%EF%B8%8F-roadmap-and-status)
 [![Hardware License: CERN-OHL-W-2.0](https://img.shields.io/badge/License-CERN--OHL--W--2.0--Hardware-green.svg)](./LICENSE)

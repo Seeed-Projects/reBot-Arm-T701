@@ -4,7 +4,7 @@
 
 **赋予物理 AI 双臂：延续 reBot 开源传承，7 自由度双臂机械臂**
 
-<img src="./media/T701_render_02.png" alt="reBot Arm T701" width="1000">
+<img src="./media/T701_banner_beta.png" alt="reBot Arm T701 (Beta)" width="1000">
 
 [![Status: Beta](https://img.shields.io/badge/Status-Beta%20Preview-orange.svg)](#%EF%B8%8F-roadmap-与状态)
 [![Hardware License: CERN-OHL-W-2.0](https://img.shields.io/badge/License-CERN--OHL--W--2.0--Hardware-green.svg)](./LICENSE)

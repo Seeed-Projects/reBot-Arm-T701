@@ -1,0 +1,4 @@
+# Full-assembly STEP (~200 MB) is stored via Git LFS.
+# If LFS bandwidth quotas become a problem for a public repo, move this file
+# to a GitHub Release asset and keep the download link in the README.
+hardware/reBot_T701/reBot_T701_v1.0_20261020.step filter=lfs diff=lfs merge=lfs -text

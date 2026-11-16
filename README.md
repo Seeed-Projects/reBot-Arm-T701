@@ -31,7 +31,6 @@
 ## 📑 Contents
 
 - [📖 Introduction](#-introduction)
-- [✨ Why Two Hands](#-why-two-hands)
 - [📸 Gallery](#-gallery)
 - [🛒 Get Your reBot T701](#-get-your-rebot-t701)
 - [⚙️ Hardware Overview](#%EF%B8%8F-hardware-overview)
@@ -47,9 +46,7 @@
 
 **reBot Arm T701** is an open-source, product-grade, plug-and-play **bimanual robotic platform** for Physical AI, Robot Learning, and real-world data collection — launched by **Seeed Studio**.
 
-Over the past few years, robot learning has advanced at an astonishing pace — from ACT and Diffusion Policy to LeRobot and today's VLAs. But one thing hasn't kept up: **the models got cheaper, the robots stayed expensive.** That is why we built the [reBot Arm B601](https://github.com/Seeed-Projects/reBot-DevArm), so that an ordinary developer, student, or lab could afford a real research-grade arm — and own it truly: not just an SDK, not just a URDF, but the structure, the BOM, the software, and the tutorials.
-
-Then the community asked the obvious next question: *“Can it have two arms?”*
+**The models got cheaper; the robots stayed expensive.** The [reBot Arm B601](https://github.com/Seeed-Projects/reBot-DevArm) made a truly open, affordable research arm real — and then the community asked the obvious next question: *“Can it have two arms?”*
 
 | | | |
 | :---: | :---: | :---: |
@@ -59,26 +56,11 @@ Then the community asked the obvious next question: *“Can it have two arms?”
 T701 is our answer. A torso, two 7-DOF arms, two grippers, head and wrist vision, edge compute — fully open:
 
 - 🦾 **Two 7-DOF arms + grippers** — a complete bimanual platform on one torso, driven by CAN-bus joint actuators.
-- 🛠️ **Full hardware transparency** — CAD, BOM, assembly guide, software, and tutorials, released step by step (see the [Roadmap](#%EF%B8%8F-roadmap-and-status)).
+- 🛠️ **Full hardware transparency** — STEP models, the BOM with purchase links, software, and tutorials, released step by step (see the [Roadmap](#%EF%B8%8F-roadmap-and-status)).
 - 📷 **Vision & compute ready** — RealSense D405 wrist cameras, D435 head mount, Jetson Orin mount, and the UniBox 7-CAN control board.
 - 🌍 **SeeedStudio supply chain × global community** — an experiment in what happens when mature robotics manufacturing is truly opened to the world's developers.
 
 **Open. Buildable. Reproducible.**
-
-## ✨ Why Two Hands
-
-Unscrew a bottle cap. Fold a towel. Plug in a cable. Assemble a part. Humans solved these problems millions of years ago — with two hands.
-
-| Single arm | Two hands |
-| :--- | :--- |
-| Grips the bottle… and can't twist the cap | One hand holds, one hand rotates |
-| Needs a fixture for every assembly | One hand fixes, one hand operates |
-| Folds laundry one corner at a time | Coordinates both sides at once |
-| Waits for someone to hold the cable | One hand steadies, one hand plugs |
-
-Bimanual manipulation is where Physical AI research is heading — and the hardware to collect real bimanual data has been either closed, or priced for corporations. T701 exists to change that.
-
-**One hand lets a robot learn to manipulate. Two hands let it start working.**
 
 ## 📸 Gallery
 
@@ -91,9 +73,15 @@ More photos, details, and hardware deep dives will be published as each Roadmap 
 
 ## 🛒 Get Your reBot T701
 
-Complete kits and pre-assembled units are in preparation and will be available at SeeedStudio.com — **coming soon**.
+The complete robot is now available for purchase with worldwide shipping:
 
-Everything you need to build one yourself — CAD files, BOM, and the assembly guide — will be published in this repository step by step. No lock-in, no waiting list: when it's released, it's yours.
+| Channel | Region | Link |
+| :--- | :--- | :--- |
+| Seeed Studio | Global | [reBot Arm T701](https://www.seeedstudio.com/reBot-Arm-T701-HT-p-7044.html) |
+| Tmall flagship store | Mainland China | [reBot Arm T701](https://detail.tmall.com/item.htm?id=1097802431280) |
+| JD flagship store | Mainland China | [reBot Arm T701](https://item.jd.com/10239223747089.html) |
+
+Everything you need to build one yourself — STEP models and the complete BOM with purchase links — is open-sourced in this repository (see the [BOM](./hardware/reBot_T701/README.md)). No lock-in, no waiting list.
 
 ## ⚙️ Hardware Overview
 
@@ -103,13 +91,13 @@ Designed as a desktop bimanual data-collection and manipulation platform: one to
 | :--- | :--- |
 | Configuration | Bimanual torso platform: 2 × 7-DOF arms + 2 × 1-DOF grippers |
 | Total actuated axes | 14 + 2 grippers |
-| Joint actuators | CAN-bus joint actuators (full model list with the BOM release) |
+| Joint actuators | 16 CAN-bus joint actuators: J1–J7 on each arm + 2 gripper motors (model-to-joint mapping in the [BOM](./hardware/reBot_T701/README.md)) |
 | End effectors | Parallel-jaw grippers, rail slide, replaceable fingers |
 | Wrist vision | Intel RealSense D405 mounts ×2 (one per arm) |
 | Head vision | Intel RealSense D435 mount |
 | Compute | NVIDIA Jetson Orin mount (power & CAN via UniBox 7-CAN board) |
 | Structure | CNC aluminum · sheet metal · resin & PETG shells |
-| Payload / reach / weight | To be published with the specifications release |
+| Payload / reach / weight | To be published at launch |
 
 ## 🗺️ Roadmap and Status
 
@@ -117,20 +105,17 @@ We open-source in the open — step by step. Every item below lands in this repo
 
 | Item | Status | Target | Description |
 | :--- | :---: | :---: | :--- |
-| Platform reveal · renders | ✅ Released | 2026-10 | First photo set and platform introduction (beta preview) |
-| Hardware specifications | ⏳ Planned | 2026-11 | Full spec sheet and hardware deep dive |
-| CAD · STEP files | ⏳ Planned | 2026-11 | Full-assembly STEP + 101 individual part files |
-| BOM | ⏳ Planned | 2026-11 | Materials, finishes, quantities, reference images |
-| Assembly guide | ⏳ Planned | 2026-11 | Step-by-step assembly documentation (photos & text) |
+| [Platform reveal · renders](#-gallery) | ✅ Released | 2026-10 | First photo set and platform introduction (beta preview) |
+| [BOM (Hardware List)](./hardware/reBot_T701/README.md) | ✅ Released | 2026-11 | Complete hardware list: full-assembly and individual part STEP files, materials, finishes, quantities, and reference images |
 | Python SDK | ⏳ Planned | 2026-11 | Motor comm, joint/MIT control, kinematics, QP IK, trajectories, teleoperation |
 | URDF model | ⏳ Planned | 2026-11 | 14-axis dual-arm URDF + STL meshes |
 | VR teleoperation (Meta Quest) | ⏳ Planned | 2026-11 | WebXR → WebSocket → UDP streaming, DLS/QP control |
 | Calibration guide | ⏳ Planned | 2026-11 | Zero-position and kinematic calibration |
-| ROS 2 integration | ⏳ Planned | 2027-12 | Kinematics, planning, teleoperation |
-| LeRobot integration | ⏳ Planned | 2027-12 | Teleoperate → Record → Train → Deploy |
-| MJCF / USD models | ⏳ Planned | 2027-12 | LeRobot & Isaac-ready simulation models |
-| Isaac Sim simulation | ⏳ Planned | 2027-12 | Simulated teleoperation, synthetic data |
-| Datasets & benchmarks | ⏳ Planned | 2027-12 | Community bimanual datasets on the T701 |
+| LeRobot integration | ⏳ Planned | 2027-01 | Teleoperate → Record → Train → Deploy |
+| MJCF / USD models | ⏳ Planned | 2027-01 | LeRobot & Isaac-ready simulation models |
+| Isaac Sim simulation | ⏳ Planned | 2027-01 | Simulated teleoperation, synthetic data |
+| ROS 2 integration | ⏳ Planned | 2027-02 | Kinematics, planning, teleoperation |
+| Datasets & benchmarks | ⏳ Planned | 2027-02 | Community bimanual datasets on the T701 |
 
 > 📅 Target dates are current estimates and may shift — star and watch the repository to catch each release.
 
@@ -170,7 +155,7 @@ The path of open source is never lonely. The reBot Arm T701 would not exist with
 
 ## 📄 License
 
-- **Hardware Design** © 2026 Seeed Studio Co., Ltd. — open sourced under [CERN-OHL-W-2.0](https://ohwr.org/cern_ohl_w_v2.txt) (full license text in [LICENSE](./LICENSE); CAD and BOM files land with their Roadmap release).
+- **Hardware Design** © 2026 Seeed Studio Co., Ltd. — open sourced under [CERN-OHL-W-2.0](https://ohwr.org/cern_ohl_w_v2.txt) (full license text in [LICENSE](./LICENSE); STEP and BOM files land with their Roadmap release).
 - Software and firmware will be published under their own open-source licenses together with each code release.
 
 ## ☎ Contact Us

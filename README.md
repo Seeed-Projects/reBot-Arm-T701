@@ -107,9 +107,9 @@ We open-source in the open — step by step. Every item below lands in this repo
 | :--- | :---: | :---: | :--- |
 | [Platform reveal · renders](#-gallery) | ✅ Released | 2026-10 | First photo set and platform introduction (beta preview) |
 | [BOM (Hardware List)](./hardware/reBot_T701/README.md) | ✅ Released | 2026-11 | Complete hardware list: full-assembly and individual part STEP files, materials, finishes, quantities, and reference images |
-| Python SDK | ⏳ Planned | 2026-11 | Motor comm, joint/MIT control, kinematics, QP IK, trajectories, teleoperation |
-| URDF model | ⏳ Planned | 2026-11 | 14-axis dual-arm URDF + STL meshes |
-| VR teleoperation (Meta Quest) | ⏳ Planned | 2026-11 | WebXR → WebSocket → UDP streaming, DLS/QP control |
+| [Python SDK](https://wiki.seeedstudio.com/cn/rebot_t701_ht_control_mit/) | ✅ Released | 2026-11 | Motor comm, joint/MIT control, kinematics, QP IK, trajectories, teleoperation |
+| [URDF model](https://github.com/Seeed-Projects/reBot-Arm-T701-SDK/tree/main/T701-HT_URDF) | ✅ Released | 2026-11 | 14-axis dual-arm URDF + STL meshes |
+| [VR teleoperation (Meta Quest)](https://wiki.seeedstudio.com/rebot_t701_ht_vr/) | ✅ Released | 2026-11 | WebXR → WebSocket → UDP streaming, QP control |
 | Calibration guide | ⏳ Planned | 2026-11 | Zero-position and kinematic calibration |
 | LeRobot integration | ⏳ Planned | 2027-01 | Teleoperate → Record → Train → Deploy |
 | MJCF / USD models | ⏳ Planned | 2027-01 | LeRobot & Isaac-ready simulation models |

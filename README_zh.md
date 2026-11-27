@@ -107,9 +107,9 @@ T701 就是我们的答案 —— 一具躯干、两条 7 自由度手臂、两�
 | :--- | :---: | :---: | :--- |
 | [平台亮相 · 渲染图](#-图库) | ✅ 已发布 | 2026-10 | 首批照片与平台介绍（Beta 预览） |
 | [BOM · 硬件清单](./hardware/reBot_T701/README_zh.md) | ✅ 已发布 | 2026-11 | 完整硬件清单：整机与零件 STEP 文件、材质、处理方式、数量与参考图 |
-| Python SDK | ⏳ 计划中 | 2026-11 | 电机通信、关节/MIT 控制、运动学、QP IK、轨迹、遥操作 |
-| URDF 模型 | ⏳ 计划中 | 2026-11 | 14 轴双臂 URDF + STL 网格 |
-| VR 遥操作（Meta Quest） | ⏳ 计划中 | 2026-11 | WebXR → WebSocket → UDP 转发，DLS/QP 控制 |
+| [Python SDK](https://wiki.seeedstudio.com/cn/rebot_t701_ht_control_mit/) | ✅ 已发布 | 2026-11 | 电机通信、关节/MIT 控制、运动学、QP IK、轨迹、遥操作 |
+| [URDF 模型](https://github.com/Seeed-Projects/reBot-Arm-T701-SDK/tree/main/T701-HT_URDF) | ✅ 已发布 | 2026-11 | 14 轴双臂 URDF + STL 网格 |
+| [VR 遥操作（Meta Quest）](https://wiki.seeedstudio.com/cn/rebot_t701_ht_vr/) | ✅ 已发布 | 2026-11 | WebXR → WebSocket → UDP 转发，QP 控制 |
 | 标定教程 | ⏳ 计划中 | 2026-11 | 零位与运动学标定 |
 | LeRobot 集成 | ⏳ 计划中 | 2027-01 | Teleoperate → Record → Train → Deploy |
 | MJCF / USD 模型 | ⏳ 计划中 | 2027-01 | 面向 LeRobot 与 Isaac 的仿真模型 |
